@@ -34,7 +34,8 @@ public class CircularRingView extends View {
         init();
     }
 
-    public void setIcon() {
+    public void setIcon(Bitmap icon) {
+            this.mIcon = icon;
     }
 
     public void animator(float f2, boolean z) {
